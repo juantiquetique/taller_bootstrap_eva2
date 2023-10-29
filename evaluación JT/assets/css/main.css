@@ -1,0 +1,33 @@
+header{
+    background-color: orange;
+    border:2px solid black;
+}
+.alto-rojo{
+    min-height: 15vh;
+}
+.alto-rojo2{
+    min-height: 15vh;
+}
+
+footer{
+    background-color: orange;
+}
+@media (min-width: 576px){
+    .alto-rojo{
+        min-height: 48vh;
+    
+    }
+}
+@media (min-width: 768px){
+    .alto-rojo{
+        min-height: 75vh;
+    }
+}
+@media (min-width: 992px){
+    .alto-rojo{
+        min-height: 75vh;
+    }
+    .alto-rojo2{
+        min-height: 30vh;
+    }
+}
